@@ -20,7 +20,7 @@ public class MenuController {
 
 	@GetMapping("/health")
 	public String healthCheck() {
-		return "I'm alive123456789!";
+		return "I'm alive1234567890!";
 	}
 
 	@GetMapping("/menus/{menuCode}")
